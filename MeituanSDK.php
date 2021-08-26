@@ -52,16 +52,16 @@ class MeituanSDK
 //{
 //    "goods": [
 //        {
-//            "goodCount": 1,
-//            "goodName": "大虾牛油果",
-//            "goodPrice": 59,
-//            "goodUnit": "个"
+//            "goodCount": '',
+//            "goodName": '',
+//            "goodPrice": '',
+//            "goodUnit": ''
 //        },
 //        {
-//            "goodCount": 1,
-//            "goodName": "海鲜三面",
-//            "goodPrice": 69,
-//            "goodUnit": "个"
+//            "goodCount": '',
+//            "goodName": '',
+//            "goodPrice": '',
+//            "goodUnit": ''
 //        }
 //    ]
 //}
@@ -76,8 +76,8 @@ class MeituanSDK
      */
     public function delete($data)
     {
-//        $data['delivery_id'] = 6652266937;
-//        $data['mt_peisong_id'] = 1501205493087417;
+//        $data['delivery_id'] = '';
+//        $data['mt_peisong_id'] = '';
 //        $data['cancel_reason'] = '';
         return self::getResult($this->API_DELETE, $data);
     }
@@ -89,8 +89,8 @@ class MeituanSDK
      */
     public function query($data)
     {
-        // $data['delivery_id'] = 9099431186;
-        // $data['mt_peisong_id'] = 1501052461078366;
+        // $data['delivery_id'] = '';
+        // $data['mt_peisong_id'] = ''
         return self::getResult($this->API_QUERY, $data);
     }
 
@@ -101,8 +101,8 @@ class MeituanSDK
      */
     public function arrange($data)
     {
-        // $data['delivery_id'] = 9099497547;
-        // $data['mt_peisong_id'] = 1501041683089449;
+        // $data['delivery_id'] = '';
+        // $data['mt_peisong_id'] = '';
         return self::getResult($this->API_ARRANGE, $data);
     }
 
@@ -113,8 +113,8 @@ class MeituanSDK
      */
     public function pickUp($data)
     {
-        // $data['delivery_id'] = 9223372036854775807;
-        // $data['mt_peisong_id'] = 1500533369085204;
+        // $data['delivery_id'] = '';
+        // $data['mt_peisong_id'] = '';
         return self::getResult($this->API_PICKUP, $data);
     }
 
@@ -125,8 +125,8 @@ class MeituanSDK
      */
     public function deliver($data)
     {
-        // $data['delivery_id'] = 7754660177546601;
-        // $data['mt_peisong_id'] = 1500102509083591;
+        // $data['delivery_id'] = '';
+        // $data['mt_peisong_id'] = '';
         return self::getResult($this->API_DELIVER, $data);
     }
 
@@ -137,8 +137,8 @@ class MeituanSDK
      */
     public function rearrange($data)
     {
-        // $data['delivery_id'] = 7754660177546601;
-        // $data['mt_peisong_id'] = 1500102509083591;
+        // $data['delivery_id'] = '';
+        // $data['mt_peisong_id'] = '';
         return self::getResult($this->API_REARRANGE, $data);
     }
 
